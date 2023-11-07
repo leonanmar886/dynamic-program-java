@@ -1,10 +1,9 @@
-import problems.Tribonacci;
-
-import java.time.LocalDateTime;
+import problems.SumPossible;
 
 public class Main {
     public static void main(String[] args) {
-        long n = Tribonacci.tribonacci(48);
+        int[] arr = {7, 8, 10};
+        boolean n = SumPossible.sumPossible(arr, 15);
         System.out.println(n);
     }
 }
