@@ -9,7 +9,7 @@ public class MinTermsSum {
         return minTermsSum(amount, list, new HashMap<Integer, Integer>());
     }
     public static int minTermsSum(int amount, List<Integer> list, HashMap<Integer, Integer> map){
-        if(amount == 0) return 0;
+        if (amount == 0) return 0;
 
         if (amount < 0) return -1;
 
